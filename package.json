@@ -1,7 +1,7 @@
 {
-  "name": "template",
+  "name": "homepage",
   "version": "1.0.0",
-  "description": "",
+  "description": "Personal homepage showcasing portfolio, contact information, and recent projects. Designed with a focus on responsive user experience and minimalist design to ensure accessibility and maximum utility.",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
@@ -10,14 +10,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KvJellyBean/.git"
+    "url": "git+https://github.com/KvJellyBean/homepage.git"
   },
-  "keywords": [],
+  "keywords": [
+    "homepage",
+    "my homepage",
+    "personal website",
+    "portfolio"
+  ],
   "author": "KvJellyBean",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KvJellyBean//issues"
+    "url": "https://github.com/KvJellyBean/homepage/issues"
   },
+  "homepage": "https://github.com/KvJellyBean/homepage#readme",
   "devDependencies": {
     "@babel/cli": "^7.23.4",
     "@babel/core": "^7.23.7",
