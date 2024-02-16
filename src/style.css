@@ -287,3 +287,336 @@ footer {
     max-width: 35rem;
   }
 }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1100px) {
+  header {
+    background: linear-gradient(
+      160deg,
+      var(--primary) 0%,
+      var(--primary) 60%,
+      var(--background) 60%,
+      var(--background) 80%
+    );
+  }
+}
+
+@media screen and (max-width: 935px) {
+  header {
+    background: linear-gradient(
+      160deg,
+      var(--primary) 0%,
+      var(--primary) 50%,
+      var(--background) 50%,
+      var(--background) 80%
+    );
+
+    padding-bottom: 0rem;
+    #aboutSection {
+      .profileContainer {
+        padding-top: 3rem;
+        display: inline-block;
+
+        .profile {
+          float: left;
+          margin-left: -2rem;
+          margin-right: 6rem;
+          margin-bottom: 3rem;
+          margin-top: -6rem;
+          width: fit-content;
+          & picture {
+            width: 100%;
+
+            & img {
+              max-width: 15rem;
+              height: 17rem;
+            }
+          }
+
+          & h2 {
+            height: fit-content;
+            width: fit-content;
+            text-wrap: nowrap;
+            top: 1rem;
+            left: 14.75rem;
+            font-size: 1.5rem;
+            letter-spacing: 0;
+            text-align: left;
+          }
+        }
+
+        & h1 {
+          text-align: center;
+          margin-bottom: 1rem;
+        }
+
+        & p {
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+
+  main {
+    .myProject {
+      #projectList {
+        .projectCard {
+          .projectInfo {
+            & p {
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    & img {
+      max-width: 15rem;
+    }
+  }
+}
+
+@media screen and (max-width: 635px) {
+  header {
+    padding: 3rem;
+    position: relative;
+    background: linear-gradient(
+      160deg,
+      var(--primary) 0%,
+      var(--primary) 37%,
+      var(--background) 37%,
+      var(--background) 80%
+    );
+
+    #aboutSection {
+      box-shadow: none;
+      position: absolute;
+      top: 25rem;
+      background-color: transparent;
+
+      .profileContainer {
+        padding-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        .profile {
+          align-self: center;
+          float: none;
+          top: -19rem;
+          margin: 0rem;
+          margin-left: -3rem;
+          width: fit-content;
+          position: absolute;
+
+          & picture {
+            width: 100%;
+
+            & img {
+              max-height: 15rem;
+              max-width: 12rem;
+            }
+          }
+
+          & h2 {
+            left: 0;
+            top: auto;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+          }
+        }
+
+        & h1 {
+          text-align: center;
+          margin-bottom: 0rem;
+        }
+
+        & p {
+          margin-bottom: 1rem;
+          font-size: 0.9rem;
+          text-align: justify;
+        }
+
+        & div.socialLinks {
+          justify-content: center;
+        }
+      }
+    }
+  }
+
+  main {
+    padding: 3rem 2rem 9rem;
+
+    .myProject {
+      & h2 {
+        text-align: center;
+      }
+    }
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0 0;
+    background-color: var(--primary);
+    color: var(--background);
+    width: 100%;
+
+    #contact {
+      max-width: 90%;
+      flex-direction: column;
+      align-self: center;
+      gap: 1rem;
+
+      & h4 {
+        font-size: 2rem;
+        text-align: center;
+      }
+
+      & p:nth-child(4) {
+        margin-top: -1rem;
+      }
+
+      & p:nth-child(5) {
+        margin-top: 1rem;
+      }
+
+      & ul {
+        padding: 0;
+        margin-top: 1rem;
+        justify-content: center;
+        gap: 2rem;
+        & li {
+          & a {
+            & i {
+              font-size: 3rem;
+            }
+          }
+        }
+      }
+    }
+
+    & picture {
+      width: 100%;
+      margin-bottom: -1rem;
+      & img {
+        min-width: 100%;
+        max-height: 60rem;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header {
+    padding: 0;
+    background: linear-gradient(
+      160deg,
+      var(--primary) 0%,
+      var(--primary) 38%,
+      var(--background) 38%,
+      var(--background) 80%
+    );
+
+    #aboutSection {
+      position: relative;
+      top: 10rem;
+
+      .profileContainer {
+        position: relative;
+        padding-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        .profile {
+          top: -15rem;
+
+          & picture {
+            width: 100%;
+
+            & img {
+              max-height: 12rem;
+            }
+          }
+
+          & h2 {
+            font-size: 1.25rem;
+          }
+        }
+
+        & h1 {
+          font-size: 2rem;
+        }
+
+        & p {
+          margin-bottom: 0rem;
+          font-size: 0.8rem;
+        }
+
+        & div.socialLinks {
+          & i {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 300px) {
+  header {
+    #aboutSection {
+      top: 8rem;
+
+      .profileContainer {
+        padding: 2rem 1rem;
+
+        .profile {
+          top: -13rem;
+
+          & h2 {
+            font-size: 1rem;
+          }
+        }
+
+        & h1 {
+          font-size: 1.5rem;
+        }
+
+        & p {
+          font-size: 0.75rem;
+        }
+      }
+    }
+  }
+
+  main {
+    .myProject {
+      & h2 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  footer {
+    #contact {
+      & h4 {
+        font-size: 1.5rem;
+      }
+
+      & p {
+        font-size: 0.9rem;
+      }
+
+      & ul li a i {
+        font-size: 2rem;
+      }
+    }
+  }
+}
