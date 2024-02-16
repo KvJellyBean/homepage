@@ -1,4 +1,4 @@
-import myPhoto from '../images/me.jpeg';
+import myPhoto from '../images/me.jpg';
 import myPhotoLow from '../images/me_low.jpg';
 
 const Header = (() => {
