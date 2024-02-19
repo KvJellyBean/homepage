@@ -41,7 +41,7 @@
 
 ## About The Project
 
-[![My Homepage GIF][product-gif]](https://github.com/KvJellyBean/homepage)
+[![My Homepage Preview][product-png]](https://github.com/KvJellyBean/homepage)
 
 Introducing my homepage, a showcase of my skills and creativity in web development. With a focus on clean design and user experience, this project reflects my passion for crafting engaging online experiences. This project also include better responsiveness, accessibility and SEO friendly.
 
@@ -118,4 +118,4 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[product-gif]: ./src/images/homepage.gif
+[product-png]: ./src/images/homepage.png
