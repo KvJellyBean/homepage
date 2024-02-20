@@ -3,9 +3,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <!-- <a href="https://github.com/KvJellyBean/homepage">
-    <img src="./src/images/logoBanner.jpeg" alt="Logo Banner">
-  </a> -->
+  <a href="https://github.com/KvJellyBean/homepage">
+    <img src="./src/images/logoBanner.png" alt="Logo Banner">
+  </a>
 
 <h3 align="center">My Homepage</h3>
 
